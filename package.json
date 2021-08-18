@@ -1,0 +1,25 @@
+{
+  "name": "nodeserver",
+  "version": "0.0.1",
+  "description": "Vi skal opbygge en node server fra grunden",
+  "main": "server.js",
+  "dependencies": {
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psl-tec-dk/node-server.git"
+  },
+  "author": "psl@tec.dk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psl-tec-dk/node-server/issues"
+  },
+  "homepage": "https://github.com/psl-tec-dk/node-server#readme"
+}
